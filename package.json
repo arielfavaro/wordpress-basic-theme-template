@@ -1,0 +1,27 @@
+{
+  "name": "wordpress_basic_template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "alpinejs": "^3.2.3",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.1.0",
+    "laravel-mix": "^6.0.27",
+    "lodash": "^4.17.21",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.37.5",
+    "sass-loader": "^12.1.0"
+  }
+}
