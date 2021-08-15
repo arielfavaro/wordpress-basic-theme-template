@@ -11,3 +11,15 @@ mix.js('assets/js/app.js', './')
 mix.options({
     processCssUrls: false,
 });
+
+// BrowserSync
+mix.browserSync({
+    proxy: 'localhost:8000',
+    notify: true,
+    files: [
+        "./**/*.scss",
+        "./css/*.min.css",
+        "./js/*.min.js",
+        "./**/*.php"
+    ],
+});
